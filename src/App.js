@@ -11,11 +11,14 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [showAnimation, setAnimation] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setAnimation(false);
-    }, 13000)
-  })
+    
+    window.onload = () => {
+      setTimeout(() => {
+        setAnimation(false);
+      }, 13000)  
+    }
+
+
 
   useEffect(() => {
     if(showAnimation) {
@@ -25,6 +28,7 @@ function App() {
       document.body.style.overflow = 'auto';
     }
   }, [showAnimation])
+
   return (
     <div className={`${showAnimation ? 'overflow-hidden' : 'overflow-auto'} h-screen`}>
       <div className={`${showAnimation ? 'top-0' : 'top-[-200vh]'} transition-all duration-1000 flex absolute pointer-events-none items-center justify-center w-screen h-screen overflow-y-hidden`}>
