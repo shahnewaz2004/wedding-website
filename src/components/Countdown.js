@@ -35,23 +35,22 @@ function Countdown() {
 
     const Box = ({time, text}) => {
         return (
-            <div className='text-[#2f4b42] font-Poppins  h-36 w-44 border-double border-4 border-gray-400 flex flex-col gap-y-1 justify-center'>
-                <p className='text-3xl font-semibold'>{time}</p>
-                <p className=''>{text}</p>
+            <div className='text-[#2f4b42] h-[70px] sm:h-28 lg:h-36 w-[70px] sm:w-28 lg:w-44 border-double border-4 border-gray-400 flex flex-col gap-y-1 justify-center'>
+                <p className='text-lg md:text-3xl font-Baskvl font-semibold'>{time}</p>
+                <p className='sm:text-lg font-Lowan font-semibold'>{text}</p>
             </div>
         )
     }
 
   return (
-    <div className='bg-[#F3EFED] text-center py-10 my-20'>
-        <h1 className='font-Cormorant text-[45px] tracking-wide text-[#2f4b42] font-semibold'>WE ARE GETTING MARRIED</h1>
-        <img src={line} alt="" className='mx-auto block opacity-30' />
-        <p className='w-[40%] text-[#2f4b42] mx-auto text-center font-Poppins text-lg leading-tight'>Мы создадим нашу семью через…</p>
-        <div className='flex gap-16 justify-center py-8'>
-            <Box time={state.days} text='DAYS' />
-            <Box time={state.hours} text='HOURS' />
-            <Box time={state.minutes} text='MINUTES' />
-            <Box time={state.seconds} text='SECONDS' />
+    <div className='text-center py-10 my-20'>
+        <h1 className='font-Baskvl text-xl sm:text-2xl lg:text-3xl xl:text-[45px] tracking-wide text-[#2f4b42] font-semibold'>Мы создадим нашу семью через…</h1>
+        <img src={line} alt="" className='mx-auto w-[120px] sm:w-[200px] block opacity-30' />
+        <div className='flex gap-3 sm:gap-10 lg:gap-16 justify-center py-8'>
+            <Box time={state.days} text='Дней' />
+            <Box time={state.hours} text='Часов' />
+            <Box time={state.minutes} text='Минут' />
+            <Box time={state.seconds} text='Секунд' />
         </div>
     </div>
   )

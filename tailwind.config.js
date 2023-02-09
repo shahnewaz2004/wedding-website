@@ -7,8 +7,10 @@ module.exports = {
       Poppins: ['Poppins', 'sans-serif'],
       Cormorant: ['Cormorant', 'sans-serif'],
       Tangerine: ['Tangerine', 'sans-serif'],
-      Courgette: ['Courgette', 'cursive']
-    },
+      Courgette: ['Courgette', 'cursive'],
+      Baskvl: ['Baskvl'],
+      Lowan: ['Lowan'],
+    }
   },
   plugins: [],
 }

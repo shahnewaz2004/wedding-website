@@ -15,7 +15,7 @@ function App() {
     window.onload = () => {
       setTimeout(() => {
         setAnimation(false);
-      }, 13000)  
+      }, 1000)  
     }
 
 
@@ -31,15 +31,15 @@ function App() {
 
   return (
     <div className={`${showAnimation ? 'overflow-hidden' : 'overflow-auto'} h-screen`}>
-      <div className={`${showAnimation ? 'top-0' : 'top-[-200vh]'} transition-all duration-1000 flex absolute pointer-events-none items-center justify-center w-screen h-screen overflow-y-hidden`}>
-        <video width="100%" autoPlay muted>
+      <div className={`${showAnimation ? 'top-0' : 'top-[-2000px]'} transition-all duration-1000 flex absolute pointer-events-none items-center justify-center w-screen h-screen overflow-y-hidden`}>
+        <video autoPlay muted>
           <source src={WeedingVideo}  type="video/mp4" />
         </video>
       </div>
       <div className={`${showAnimation ? 'opacity-0' : 'opacity-100'} transition-all duration-1000`}>
         <Hero />
         <Info />
-        <Countdown />
+        <Countdown /> 
         <Tab />
         <Color />
         <WishList />

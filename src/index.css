@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background: url('../asset/background.png');
+    background-size: cover;
+} 
+
+@font-face {
+    font-family: 'Lowan';
+    src: local('Lowan'), url('../font/Lowan.ttf');
+}
+
+@font-face {
+    font-family: 'Baskvl';
+    src: local('Baskvl'), url('../font/Baskvl.ttf');
+}
+
 .name-text{
     opacity: 0;
     bottom: -30px;
@@ -55,6 +70,7 @@ input[type="radio"]:checked{
 
 input.PhoneInputInput {
     outline: none;
+    background-color: transparent;
 }
 
 #one, #two, #three {
