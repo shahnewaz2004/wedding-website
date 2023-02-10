@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import line from '../asset/line.png';
+import line from '../asset/countdown-border.png';
 
 function Countdown() {
 
@@ -35,7 +35,7 @@ function Countdown() {
 
     const Box = ({time, text}) => {
         return (
-            <div className='text-[#2f4b42] h-[70px] sm:h-28 lg:h-36 w-[70px] sm:w-28 lg:w-44 border-double border-4 border-gray-400 flex flex-col gap-y-1 justify-center'>
+            <div className='text-[#968a77] h-[70px] sm:h-28 lg:h-36 w-[70px] sm:w-28 lg:w-44 border-double border-[6px] border-[#5c5341] flex flex-col gap-y-1 justify-center'>
                 <p className='text-lg md:text-3xl font-Baskvl font-semibold'>{time}</p>
                 <p className='sm:text-lg font-Lowan font-semibold'>{text}</p>
             </div>
@@ -43,10 +43,10 @@ function Countdown() {
     }
 
   return (
-    <div className='text-center py-10 my-20'>
-        <h1 className='font-Baskvl text-xl sm:text-2xl lg:text-3xl xl:text-[45px] tracking-wide text-[#2f4b42] font-semibold'>Мы создадим нашу семью через…</h1>
-        <img src={line} alt="" className='mx-auto w-[120px] sm:w-[200px] block opacity-30' />
-        <div className='flex gap-3 sm:gap-10 lg:gap-16 justify-center py-8'>
+    <div className='text-center py-10 my-20 bg-[#ffffff62] space-y-5 md:space-y-10'>
+        <h1 className='font-Playfair text-base sm:text-2xl lg:text-3xl xl:text-[45px] tracking-wide text-[#968a77] font-semibold'>Мы создадим нашу семью через…</h1>
+        <img src={line} alt="" className='mx-auto w-[220px] sm:w-[500px] block opacity-30' />
+        <div className='flex gap-3 sm:gap-10 lg:gap-16 justify-center pb-8'>
             <Box time={state.days} text='Дней' />
             <Box time={state.hours} text='Часов' />
             <Box time={state.minutes} text='Минут' />

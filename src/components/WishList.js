@@ -3,7 +3,7 @@ import React from 'react'
 function WishList() {
   return (
     <div className='my-20 max-w-[1140px] mx-auto xl:px-0 px-4'>
-        <h1 className='font-Baskvl text-center text-4xl ld:text-6xl tracking-wide text-[#181818] mb-12 font-semibold'>Пожелания</h1>
+        <h1 className='font-Playfair text-center text-4xl ld:text-6xl tracking-wide text-[#181818] mb-12 font-semibold'>ПОЖЕЛАНИЯ</h1>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
             <div className={styles.textBox}>
             Будем благодарны, если Вы воздержитесь от криков «Горько» на празднике, ведь поцелуй - знак выражения чувств, он не может быть по заказу.

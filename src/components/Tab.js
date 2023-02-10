@@ -5,7 +5,7 @@ function Tab() {
   return (
     <div className='max-w-[1000px] xl:px-0 px-4 mx-auto my-10'>
         <hr className='border-t w-[30%] mx-auto border-black' />
-        <h1 className='font-Baskvl text-2xl md:text-4xl font-medium text-center text-[#181818] my-10'>План Дня</h1>
+        <h1 className='font-Playfair text-2xl md:text-4xl font-medium text-center text-[#181818] my-10'>ПЛАН ДНЯ</h1>
 
         <div className='border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
           <div className='flex md:w-[70%] md:flex-row flex-col'>
@@ -26,6 +26,7 @@ function Tab() {
           <div className='md:w-[30%] space-y-5 tab-content md:mt-0 mt-5 overflow-auto'>
             <div className='space-y-2'>
               <h4 className='font-Baskvl text-xl font-semibold'>Замок Бип</h4>
+              <p className='font-Lowan text-[#363636]'>Адрес: Павловск, Мариинская ул., 4</p>
               <p className='font-Lowan text-[#363636]'>Четверг <br /> 3 августа <br /> 16:30</p>
               <a href='https://cutt.ly/A3gPsDd' target='_blank' className='block w-max px-10 py-2 text-white hover:bg-[#363636] tracking-wider transition duration-200 rounded-md bg-[#c2c2c2] font-Inter font-medium text-[13px]'>VIEW ON MAP</a>
             </div>

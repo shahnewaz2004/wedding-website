@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background: url('../asset/background.png');
-    background-size: cover;
-} 
+
+@font-face {
+    font-family: 'Playfair';
+    src: local('Playfair'), url('../font/Playfair.ttf');
+}
+
+@font-face {
+    font-family: 'Danette';
+    src: local('Danette'), url('../font/Danette.ttf');
+}
 
 @font-face {
     font-family: 'Lowan';
@@ -85,4 +91,20 @@ input.PhoneInputInput {
 }
 #one:checked, #two:checked, #three:checked{
     background-color: #afad45;
+}
+
+
+#ring-animation{
+    opacity: 1;
+    animation: animate 11s linear forwards;
+}
+
+@keyframes animate {
+    95%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
 }
