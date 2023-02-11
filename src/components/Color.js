@@ -13,21 +13,29 @@ import menColor from '../asset/men-color.png';
 function Color() {
   return (
     <div className='max-w-[1000px] mx-auto xl:px-0 px-5'>
+        <hr className='border-t w-[30%] mx-auto border-black mb-10' />
+
         <h1 className='font-Playfair text-center text-2xl md:text-4xl tracking-wide mb-12 font-semibold'>DRESS CODE</h1>
-        <p className='font-Lowan text-center tracking-wide leading-relaxed text-[#363636]'>
+        <p className='font-Baskvl text-lg text-center tracking-wide leading-relaxed text-[#363636]'>
           Мы очень старались сделать праздник красивым и будем рады, <br /> если в своих нарядах вы поддержите цветовую гамму нашей свадьбы
         </p>
-        <div className='flex justify-between sm:flex-row flex-col items-center gap-2 sm:gap-4 mt-5 mb-10'>
-            <img src={girlColor} className="xl:order-1 order-2 w-[250px] md:w-[450px]"/>
-            <img src={menColor} className="xl:order-2 order-1 w-[140px] md:w-[260px]"/>
+        <div className='flex justify-between sm:flex-row flex-col items-center gap-2 sm:gap-4 mt-16 mb-10'>
+            <div>
+              <p className='font-Lowan text-2xl text-center tracking-wide leading-relaxed text-[#363636]'>Для девушек:</p>
+              <img src={girlColor} className="xl:order-1 order-2 w-[250px] md:w-[450px]"/>
+            </div>
+            <div>
+              <p className='font-Lowan text-2xl text-center tracking-wide leading-relaxed text-[#363636] mb-2'>Для мужчин:</p>
+              <img src={menColor} className="xl:order-2 order-1 w-[140px] md:w-[260px]"/>
+            </div>
         </div>
 
         <div className='flex sm:flex-row flex-col justify-between relative xl:left-28 2xl:px-0 lg:px-10'>
               
               <div className='relative xl:space-y-0 space-y-8 xl:order-1 order-2'>
-                  <img src={girl1} alt="" className='w-full h-[380px] object-cover relative xl:z-[5]' />
-                  <img src={girl2} alt="" className='w-full h-[380px] object-cover  xl:absolute top-[15%] right-[90%]' />
-                  <img src={girl3} alt="" className='w-full h-[380px] object-cover z-10 xl:relative top-[-100px] left-16' />
+                  <img src={girl1} alt="" className='w-full h-[380px] object-conver relative xl:z-[5]' />
+                  <img src={girl2} alt="" className='w-full h-[380px] object-cover  xl:absolute top-[15%] right-[80%]' />
+                  <img src={girl3} alt="" className='w-full h-[380px] object-cover z-10 xl:relative top-[-30px] left-24' />
               </div>
 
               <div className='relative space-y-8  xl:order-2 order-1'> 

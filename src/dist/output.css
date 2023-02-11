@@ -579,16 +579,16 @@ video {
   top: 15%;
 }
 
-.right-\[90\%\] {
-  right: 90%;
+.right-\[80\%\] {
+  right: 80%;
 }
 
-.top-\[-100px\] {
-  top: -100px;
+.top-\[-30px\] {
+  top: -30px;
 }
 
-.left-16 {
-  left: 4rem;
+.left-24 {
+  left: 6rem;
 }
 
 .top-10 {
@@ -597,6 +597,10 @@ video {
 
 .left-\[-90\%\] {
   left: -90%;
+}
+
+.right-\[90\%\] {
+  right: 90%;
 }
 
 .top-0 {
@@ -655,16 +659,20 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-16 {
+  margin-top: 4rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mt-8 {
@@ -675,8 +683,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mb-3 {
@@ -739,6 +747,10 @@ video {
   width: 100%;
 }
 
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .w-\[250px\] {
   width: 250px;
 }
@@ -774,10 +786,6 @@ video {
 
 .w-8 {
   width: 2rem;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .max-w-\[1000px\] {
@@ -830,10 +838,6 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-y-1 {
@@ -899,6 +903,11 @@ video {
   border-style: double;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -907,11 +916,6 @@ video {
 .border-\[\#5c5341\] {
   --tw-border-opacity: 1;
   border-color: rgb(92 83 65 / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -946,9 +950,9 @@ video {
   background-color: rgb(194 194 194 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#ffecf0\] {
+.bg-\[\#ebecec\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 236 240 / var(--tw-bg-opacity));
+  background-color: rgb(235 236 236 / var(--tw-bg-opacity));
 }
 
 .bg-body {
@@ -1044,12 +1048,12 @@ video {
   font-family: Playfair;
 }
 
-.font-Lowan {
-  font-family: Lowan;
-}
-
 .font-Baskvl {
   font-family: Baskvl;
+}
+
+.font-Lowan {
+  font-family: Lowan;
 }
 
 .font-Danette {
@@ -1088,6 +1092,10 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
 }
 
 .font-semibold {
@@ -1152,14 +1160,19 @@ video {
   color: rgb(224 207 177 / var(--tw-text-opacity));
 }
 
-.text-\[\#4b4b4b\] {
+.text-\[\#837d6e\] {
   --tw-text-opacity: 1;
-  color: rgb(75 75 75 / var(--tw-text-opacity));
+  color: rgb(131 125 110 / var(--tw-text-opacity));
 }
 
 .text-\[\#181818\] {
   --tw-text-opacity: 1;
   color: rgb(24 24 24 / var(--tw-text-opacity));
+}
+
+.text-\[\#4b4b4b\] {
+  --tw-text-opacity: 1;
+  color: rgb(75 75 75 / var(--tw-text-opacity));
 }
 
 .opacity-30 {
@@ -1187,6 +1200,10 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 @font-face {
@@ -1316,6 +1333,22 @@ input.PhoneInputInput {
 
   100%{
     opacity: 0;
+  }
+}
+
+span.word {
+  font-size: 1.4rem !important ;
+  font-family: 'Lowan' !important;
+}
+
+.words-wrapper {
+  white-space: normal !important;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 650px) {
+  span.word {
+    font-size: 1rem !important ;
   }
 }
 
@@ -1529,11 +1562,6 @@ input.PhoneInputInput {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 

@@ -4,8 +4,7 @@ import video2 from '../asset/video2.mp4';
 function Tab() {
   return (
     <div className='max-w-[1000px] xl:px-0 px-4 mx-auto my-10'>
-        <hr className='border-t w-[30%] mx-auto border-black' />
-        <h1 className='font-Playfair text-2xl md:text-4xl font-medium text-center text-[#181818] my-10'>ПЛАН ДНЯ</h1>
+        <h1 className='font-Playfair text-2xl md:text-4xl font-medium text-center text-[#181818] my-8'>ПЛАН ДНЯ</h1>
 
         <div className='border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
           <div className='flex md:w-[70%] md:flex-row flex-col'>

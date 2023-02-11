@@ -12,6 +12,7 @@
     "react-icons": "^4.7.1",
     "react-phone-number-input": "^3.2.16",
     "react-scripts": "5.0.1",
+    "react-text-animations": "^1.1.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

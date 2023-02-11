@@ -108,3 +108,20 @@ input.PhoneInputInput {
         opacity: 0;
     }
 }
+
+
+span.word {
+    font-size: 1.4rem !important ;
+    font-family: 'Lowan' !important;
+}
+
+.words-wrapper {
+	white-space: normal !important;
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 650px) {
+    span.word {
+        font-size: 1rem !important ;
+    }
+}
