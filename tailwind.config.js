@@ -6,7 +6,8 @@ module.exports = {
       Baskvl: ['Baskvl'],
       Lowan: ['Lowan'],
       Danette: ['Danette'],
-      Playfair: ['Playfair']
+      Playfair: ['Playfair'],
+      Savoye: ['Savoye'],
     },
     extend: {
       backgroundImage: {

@@ -6,7 +6,7 @@ function Tab() {
     <div className='max-w-[1000px] xl:px-0 px-4 mx-auto my-10'>
         <h1 className='font-Playfair text-2xl md:text-4xl font-medium text-center text-[#181818] my-8'>ПЛАН ДНЯ</h1>
 
-        <div className='border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
+        <div className='bg-[#fbfbfb] border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
           <div className='flex md:w-[70%] md:flex-row flex-col'>
             <div>
               <video muted autoPlay loop controls={false} className="md:w-[180px]">

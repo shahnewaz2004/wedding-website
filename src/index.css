@@ -4,6 +4,11 @@
 
 
 @font-face {
+    font-family: 'Savoye';
+    src: local('Savoye'), url('../font/Savoye.ttf');
+}
+
+@font-face {
     font-family: 'Playfair';
     src: local('Playfair'), url('../font/Playfair.ttf');
 }
@@ -21,6 +26,10 @@
 @font-face {
     font-family: 'Baskvl';
     src: local('Baskvl'), url('../font/Baskvl.ttf');
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .name-text{
@@ -83,30 +92,13 @@ input.PhoneInputInput {
     appearance: none;
     background-color: #fff;
     margin: 0;
-    color: currentColor;
     width: 1em;
     height: 1em;
-    border: 1px solid #afad45;
+    border: 1px solid #afafaf;
     border-radius: 50%;
 }
 #one:checked, #two:checked, #three:checked{
-    background-color: #afad45;
-}
-
-
-#ring-animation{
-    opacity: 1;
-    animation: animate 11s linear forwards;
-}
-
-@keyframes animate {
-    95%{
-        opacity: 1;
-    }
-
-    100%{
-        opacity: 0;
-    }
+    background-color: #afafaf;
 }
 
 
