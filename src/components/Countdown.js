@@ -43,7 +43,7 @@ function Countdown() {
     }
 
   return (
-    <div className='text-center py-10 my-20 bg-[#ffffff62] space-y-5 md:space-y-10'>
+    <div className='text-center py-10 my-20 bg-[#f9f9f6] space-y-5 md:space-y-10'>
         <h1 className='font-Playfair text-base sm:text-2xl lg:text-3xl xl:text-[45px] tracking-wide text-[#968a77] font-semibold'>Мы создадим нашу семью через…</h1>
         <img src={line} alt="" className='mx-auto w-[220px] sm:w-[500px] block opacity-30' />
         <div className='flex gap-3 sm:gap-10 lg:gap-16 justify-center pb-8'>

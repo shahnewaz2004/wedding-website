@@ -6,7 +6,7 @@ import vetka from '../asset/vetka.png';
 
 function Form() {
   return (
-    <div className="bg-[#f9f9f6] py-10 xl:mt-48 relative ">
+    <div className="bg-[#f9f9f6] py-10 xl:mt-64 relative ">
 
         <div className="max-w-[1144px] mx-auto flex xl:flex-row flex-col relative">
             <div className="flex-1 xl:order-1 order-2">
@@ -48,10 +48,10 @@ function Form() {
                 </button>
             </div>
 
-            <div className="p-10 hidden absolute xl:flex justify-center items-center bg-white border-4 left-0 top-1/2 -translate-y-1/2 h-[600px] w-[500px] border-[#ebecec]">
+            <div className="p-10 hidden absolute xl:flex justify-center items-center bg-white border-4 left-0 top-1/2 -translate-y-1/2 h-[700px] w-[500px] border-[#ebecec]">
               <div className='relative'>
-                <img src={flower} className="w-[300px] absolute -right-[62%] -top-[30%] -z-[5]" />
-                <h2 className="text-center font-Baskvl text-2xl"> Ответ на приглашение</h2>
+                <img src={flower} className="w-[300px] absolute -right-[63%] -top-[30%] -z-[5]" />
+                <h2 className="text-center font-Baskvl text-4xl"> Ответ на приглашение</h2>
                 <div className=" space-y-4 my-10">
                   <input placeholder="Имя" className=" bg-tranparent text-[#817c70] border-0 outline-none border-b-2 border-gray-400 px-5 py-2 w-full text-sm" />
                   <input placeholder="Фамилия" className=" bg-tranparent text-[#817c70] border-0 outline-none border-b-2 border-gray-400 px-5 py-2 w-full text-sm" />
@@ -79,7 +79,7 @@ function Form() {
             </div>
         </div>
 
-        <div className='absolute sm:block hidden -left-10 top-0 xl:-bottom-10 -rotate-[20deg]'>
+        <div className='absolute sm:block hidden -left-10 top-0 xl:top-48 -rotate-[20deg]'>
           <img src={leftCornerPicture} className="w-[160px] 2xl:w-[200px]" />
         </div>
         <div className='absolute sm:block hidden -right-4 -bottom-10 rotate-[20deg]'>

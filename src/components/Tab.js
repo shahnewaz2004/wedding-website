@@ -6,7 +6,7 @@ function Tab() {
     <div className='max-w-[1000px] xl:px-0 px-4 mx-auto my-10'>
         <h1 className='font-Playfair text-2xl md:text-4xl font-medium text-center text-[#181818] my-8'>ПЛАН ДНЯ</h1>
 
-        <div className='bg-[#fbfbfb] border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
+        <div className='bg-[#f9f9f6] border border-gray-400 md:h-[350px] p-5 md:p-10 flex md:flex-row flex-col gap-x-6'>
           <div className='flex md:w-[70%] md:flex-row flex-col'>
             <div>
               <video muted autoPlay loop controls={false} className="md:w-[180px]">
@@ -27,7 +27,7 @@ function Tab() {
               <h4 className='font-Baskvl text-xl font-semibold'>Замок Бип</h4>
               <p className='font-Lowan text-[#363636]'>Адрес: Павловск, Мариинская ул., 4</p>
               <p className='font-Lowan text-[#363636]'>Четверг <br /> 3 августа <br /> 16:30</p>
-              <a href='https://cutt.ly/A3gPsDd' target='_blank' className='block w-max px-10 py-2 text-white hover:bg-[#363636] tracking-wider transition duration-200 rounded-md bg-[#c2c2c2] font-Inter font-medium text-[13px]'>VIEW ON MAP</a>
+              <a href='https://cutt.ly/A3gPsDd' target='_blank' className='block w-max px-10 py-2 text-white hover:bg-[#363636] tracking-wider transition duration-200 rounded-md bg-[#c2c2c2] font-Inter font-medium text-[13px]'>Посмотреть на карте</a>
             </div>
             <div className='space-y-2'>
               <p className='font-Lowan leading-6 text-[#363636]'>Мы очень Вас любим и не могли о Вас не позаботиться! Все наши гости смогут разместиться в комфортных номерах замка, а утром мы Вас будем ждать за вкусным, уютным завтраком, чтобы вместе вспомнить как это было</p>

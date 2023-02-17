@@ -5,8 +5,6 @@ import Tab from "./components/Tab";
 import Color from "./components/Color";
 import WishList from "./components/WishList";
 import Form from "./components/Form";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import WeddingVideo from './asset/Wedding.mp4';
 import { useState } from "react";
 
@@ -24,7 +22,7 @@ function App() {
       </div>
       <div>
         <Hero />
-          <div className="bg-body bg-cover sm:pb-48 pb-10">
+          <div className="bg-body bg-cover sm:pb-56 pb-10">
             <Info />
             <Countdown /> 
             <Tab />
