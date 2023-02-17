@@ -11,7 +11,6 @@ function Form() {
         <div className="max-w-[1144px] mx-auto flex xl:flex-row flex-col relative">
             <div className="flex-1 xl:order-1 order-2">
             <div className='xl:hidden xl:px-0 px-5'>
-                <img src={flower} className="w-[300px] absolute -right-[62%] -top-[30%] -z-[5]" />
                 <h2 className="text-center font-Baskvl text-2xl"> Ответ на приглашение</h2>
                 <div className=" space-y-4 my-10">
                   <input placeholder="Имя" className=" bg-transparent text-[#817c70] border-0 outline-none border-b-2 border-gray-400 px-5 py-2 w-full text-sm" />
@@ -50,7 +49,7 @@ function Form() {
 
             <div className="p-10 hidden absolute xl:flex justify-center items-center bg-white border-4 left-0 top-1/2 -translate-y-1/2 h-[700px] w-[500px] border-[#ebecec]">
               <div className='relative'>
-                <img src={flower} className="w-[300px] absolute -right-[63%] -top-[30%] -z-[5]" />
+                <img src={flower} className="w-[300px] xl:block hidden absolute -right-[63%] -top-[30%] -z-[5]" />
                 <h2 className="text-center font-Baskvl text-4xl"> Ответ на приглашение</h2>
                 <div className=" space-y-4 my-10">
                   <input placeholder="Имя" className=" bg-tranparent text-[#817c70] border-0 outline-none border-b-2 border-gray-400 px-5 py-2 w-full text-sm" />
