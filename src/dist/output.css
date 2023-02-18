@@ -583,14 +583,6 @@ video {
   left: -40px;
 }
 
-.-right-\[62\%\] {
-  right: -62%;
-}
-
-.-top-\[30\%\] {
-  top: -30%;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -601,6 +593,10 @@ video {
 
 .-right-\[63\%\] {
   right: -63%;
+}
+
+.-top-\[30\%\] {
+  top: -30%;
 }
 
 .-left-10 {
@@ -792,12 +788,12 @@ video {
   width: 220px;
 }
 
-.w-\[300px\] {
-  width: 300px;
-}
-
 .w-\[500px\] {
   width: 500px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[160px\] {
